@@ -1,1 +1,0 @@
-# Coding-untuk-kakak-tingkat

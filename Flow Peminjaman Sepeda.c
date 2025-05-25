@@ -20,7 +20,7 @@ void pinjam_sepeda() {
     char nama[PANJANG_NAMA];
     printf("Masukkan nomor sepeda yang ingin dipinjam: ");
     scanf("%d", &pilihan);
-    getchar(); // hapus newline dari buffer
+    getchar(); 
 
     if (pilihan < 1 || pilihan > JUMLAH_SEPEDA) {
         printf("Pilihan tidak valid.\n");
@@ -30,7 +30,7 @@ void pinjam_sepeda() {
     if (strcmp(status[pilihan - 1], "Tersedia") == 0) {
         printf("Masukkan nama peminjam: ");
         fgets(nama, sizeof(nama), stdin);
-        nama[strcspn(nama, "\n")] = 0; // hapus newline
+        nama[strcspn(nama, "\n")] = 0; 
         sprintf(status[pilihan - 1], "Dipinjam oleh %s", nama);
         printf("%s berhasil dipinjam.\n", sepeda[pilihan - 1]);
     } else {

@@ -23,4 +23,4 @@
 - Fungsi (Menu seperti 'tampilkan_daftar_sepeda' atau 'kembalikan_sepeda')
 - Array (Menyimpan nama sepeda dan status)
 ## Link Video Demo
-- []
+- [https://youtu.be/ni9hIyfg2Ew?si=lLyGSIs9EQikxU_F]
